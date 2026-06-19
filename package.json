@@ -1,0 +1,21 @@
+{
+  "name": "unspeakable",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "unspeakable": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
